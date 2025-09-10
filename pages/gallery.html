@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery - Grace & Greens</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #FAF3E0, #98A886);
+  color: #2f2f2f;
+  line-height: 1.8;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #f2f2f2;
+}
+header img { width: 200px; height: 150px; }
+nav a { margin-right: 20px; text-decoration: none; color: #2f2f2f; font-weight: bold; }
+nav a:hover, nav a.active { color: #2E8B57; }
+
+main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+article { background: #faf7f2; padding: 20px; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); margin-bottom: 40px;}
+h2 { font-size: 32px; color: #2E8B57; text-align: center; margin-bottom: 20px; }
+h3 { color: #2E8B57; margin-top: 20px; }
+
+section.specials {
+  background: #faf7f2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+  text-align: center;
+}
+section.specials h2 { font-size: 32px; margin-bottom: 15px; }
+section.specials figure { display: inline-block; width: 30%; margin: 10px; text-align: center; }
+section.specials img { width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+section.specials figcaption { font-weight: bold; color: #2f2f2f; margin-top: 8px; }
+
+section.video { text-align: center; margin-bottom: 40px; }
+section.video iframe { width: 80%; height: 500px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+
+footer { text-align:center; padding:10px 0; background:#f2f2f2; margin-top:20px; }
+</style>
+</head>
+<body>
+
+<header>
+<img src="../assets/Grace and Greens Logo Design.png" alt="Grace & Greens logo" width="200" height="150"><nav style="margin-left: 40px;">
+        <a href="../index.html" style="margin-right: 20px;">Home</a>
+        <a href="./About.html" style="margin-right: 20px;">About Us</a>
+        <a href="./Menu.html" style="margin-right: 20px;">Menu</a>
+        <a href="./gallery.html" style="margin-right: 20px;">Gallery</a>
+        <a href="./contact.html">Contact Us</a>
+    </nav>
+</header>
+
+<main>
+
+<article>
+  <h2>The Benefits of a Vegetarian Lifestyle</h2>
+  <p>Adopting a vegetarian lifestyle has been linked to a wide range of health, environmental, and ethical benefits. Plant-based diets are rich in essential nutrients, fiber, and antioxidants, which can help lower the risk of chronic illnesses such as heart disease, diabetes, and certain cancers. Beyond personal health, choosing vegetarian meals supports sustainability, as plant-based food production typically requires fewer natural resources and emits less greenhouse gases compared to meat-based diets.</p>
+  <p>Additionally, many people embrace vegetarianism as a compassionate choice, reducing harm to animals and promoting a more ethical way of eating. With the rise of creative vegetarian cuisine, enjoying delicious, satisfying meals without meat has never been easier or more rewarding.</p>
+</article>
+
+<section class="specials">
+  <h2>🌿 Our Weekly Specials 🌿</h2>
+
+  <h3>🌞 Sunday Feast Buffet - Only R150</h3>
+  <p>Join us for an all-you-can-eat buffet filled with fresh plant-based favorites, perfect for family gatherings.</p>
+  <figure>
+    <img src="../assets/salad bar.webp" alt="Sunday Buffet 1">
+    <figcaption>Wholesome Salad Bar</figcaption>
+  </figure>
+  <figure>
+    <img src="../assets/seasonal hot dishes.avif" alt="Sunday Buffet 2">
+    <figcaption>Seasonal Hot Dishes</figcaption>
+  </figure>
+  <figure>
+    <img src="../assets/vegan dessert.webp" alt="Sunday Buffet 3">
+    <figcaption>Decadent Vegan Desserts</figcaption>
+  </figure>
+
+  <h3>🌯 Wholesome Wednesday Wraps - Only R75</h3>
+  <p>Midweek freshness wrapped in soft flatbreads, filled with crunchy veggies, beans, and homemade dressings.</p>
+  <figure>
+    <img src="../assets/chickpea wrap.webp" alt="Vegetarian Wrap 1">
+    <figcaption>Spicy Chickpea Wrap</figcaption>
+  </figure>
+  <figure>
+    <img src="../assets/grilled veggie wrap.webp" alt="Vegetarian Wrap 2">
+    <figcaption>Grilled Veggie & Hummus Wrap</figcaption>
+  </figure>
+
+  <h3>🥧 Tasty Tuesday Pies - Only R60 Each</h3>
+  <p>Warm, flaky, and stuffed with hearty plant-based fillings. A midweek treat you can’t miss!</p>
+  <figure>
+    <img src="../assets/creamy mushroom pie.jpg" alt="Vegetarian Pie 1">
+    <figcaption>Creamy Mushroom Pie</figcaption>
+  </figure>
+  <figure>
+    <img src="../assets/lentil pie.webp" alt="Vegetarian Pie 2">
+    <figcaption>Hearty Lentil & Veggie Pie</figcaption>
+  </figure>
+</section>
+
+<section class="video">
+  <h2>🍳 Chef's Vegan Burger Creations</h2>
+  <p>Watch our chef prepare a delicious vegan burger, showcasing plant-based cooking skills.</p>
+  <iframe src="https://www.youtube.com/embed/l75ixsh-wjI" title="Plant-Based Vegan Burger Recipe" allowfullscreen></iframe>
+</section>
+
+</main>
+
+<footer>&copy;2025 Grace & Greens</footer>
+
+</body>
+</html>
